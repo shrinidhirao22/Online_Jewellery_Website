@@ -1,0 +1,98 @@
+
+body{
+    font-size: 20px;
+    background: rgb(235, 215, 230);
+}
+
+.container{
+    background: white;
+    width:800px;
+    height:500px;
+    padding: 20px;
+    margin: 50px auto;
+    border-top: 3px solid rgb(116, 32, 83);
+    border-bottom: 3px solid rgb(116, 32, 83);
+    border-left: 3px solid rgb(116, 32, 83);
+    border-right: 3px solid rgb(116, 32, 83);
+    box-shadow: 0 0 7px 5px;
+}
+
+.row{
+    position: relative;
+    top: 20px;
+}
+
+.card{
+    height: 50px;
+    background-color:aliceblue;
+    border-color: rgb(116, 32, 83);
+    box-shadow: 0 0 5px 3px;
+}
+
+.card-header{
+    text-align: center;
+    color: rgb(116, 32, 83);
+}
+
+.card-body{
+    height: 390px;
+    background-color:aliceblue;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.id input{
+    position:relative;
+    width: 80%;
+    left:50px;
+    top:20px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    border-color: rgb(116, 32, 83);
+    box-shadow: 0 0 3px 2px;
+}
+
+.category-name input{
+    position:relative;
+    width: 80%;
+    left:50px;
+    top:70px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    border-color: rgb(116, 32, 83);
+    box-shadow: 0 0 3px 2px;
+}
+
+.button input{
+    position: relative;
+    width: 40%;
+    height: 50px;
+    top: 110px;
+    left: 220px;
+    font-size: 30px;
+    border-color: rgb(116, 32, 83);
+    box-shadow: 0 0 3px 2px;
+    font-weight: bolder;
+    background-color:thistle
+}
+
+.button a{
+    position: relative;
+    top: 200px;
+    left: -25px;
+    font-size: 30px;
+    padding: 2px 50px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color:thistle;
+    border-color: rgb(116, 32, 83);
+    box-shadow: 0 0 1px 3px black;
+}
+
+
+

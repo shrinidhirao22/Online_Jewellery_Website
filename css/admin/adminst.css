@@ -1,0 +1,98 @@
+
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(ad.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.container{
+  position: relative;
+  right: 400px;
+  max-width: 1000px;
+  width: 100%;
+  background: none;
+  padding: 40px 30px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  perspective: 2700px;
+}
+.signup-form {
+    position: relative;
+    width: 90%;
+    left: 250px;
+}
+.signup-form  .title{
+    position: relative;
+    left: 130px;
+    bottom: 10px;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-bottom: 1px;
+    font-size: 30px;
+    color: white;
+ }
+.signup-form  .input-boxes{
+  margin-top: 30px;
+  display: contents;
+ }
+.signup-form  .input-box{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background: none;
+  width: 50%;
+  margin: 10px 0;
+  position: relative;
+}
+.signup-form  .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  border-bottom: 2px solid white(0,0,0,0.2);
+  transition: all 0.3s ease;
+  background: transparent;
+  border: 1px solid white;
+}
+.signup-form  .input-box i{
+  position: absolute;
+  left: 9px;
+  top: 13px;
+  color: white;
+  font-size: 17px;
+}
+.signup-form  .button{
+  color: #fff;
+  margin-top: 40px;
+}
+.signup-form  .button :hover{
+  background: rgb(189, 188, 188);
+  color: black;
+}
+.signup-form  .button input{
+  color: white;
+  font-size: 20px;
+  background: none;
+  border-radius: 6px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+
+
+

@@ -1,0 +1,140 @@
+body{
+    font-size: 20px;
+    background: white;
+}
+.container{
+    background: white;
+    width:auto;
+    height:auto;
+    display:flex;
+}
+.row{
+    position: relative;
+}
+.card{
+    position:relative;
+    bottom: 40px;
+    left: 20px;
+    background-color:wheat;
+    border-color: white;
+    box-shadow: 0 0 5px 3px;
+}
+.card-header{
+    position: relative;
+    box-shadow: 0 0 5px 3px;
+    top: 10px;
+    margin-left: 75px;
+    margin-right: 72px;
+    background-color: rgb(247, 236, 217);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+   
+}
+.card-header h4{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(62, 30, 92);
+}
+.card-body{
+    position: relative;
+    height: fit-content;
+    width: 1295px;
+    background-color:wheat;
+}
+.bck a{
+    position: relative;
+    top: -2px;
+    left: 80px;
+    font-size: 18px;
+    padding: 1px 13px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color:thistle;
+    border-radius: 30px;
+    border-color: rgb(116, 32, 83);
+    box-shadow: 0 0 1px 1px black;
+}
+.table-responsive{
+    position: relative;
+    width: 1295px;
+    height: fit-content;
+    background: wheat;
+}
+.table{
+    border: 3px solid black;
+    background-image: url(img/img1.jpg);
+    position: relative;
+    bottom: 40px;
+    left: 235px;
+    width: 800px;
+    height: fit-content;
+}
+.table thead{
+    font-size: 25px;
+    font-style:oblique;
+    background: white;
+    
+}
+
+.table th{
+    border: 2px solid black;
+    padding: 3px 1px;
+    border-radius: 30px;
+}
+.table tbody tr{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    width: 1000px;
+}
+ 
+.table tbody td:nth-child(1)
+{
+    border: 1px solid white;
+    text-align: center;
+    background: white;
+    font-size: 25px;
+    border-right-width: 20px;
+    border-left-width: 20px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    
+    width: 10%;
+    border-radius: 50px;
+    
+}
+.table tbody td:nth-child(2){
+    border: 1px solid black;
+    text-align: center;
+    background: white;
+    font-size: 25px;
+    width: 70%;
+    border-radius: 50px;
+}
+.table tbody td:nth-child(3){
+    border: 1px solid black;
+    text-align: center;
+    background: white;
+    font-size: 25px;
+    width: 90%;
+    border-radius: 50px;
+
+}
+.table tbody a{
+    position: relative;
+    top: -2px;
+    right: center;
+    font-size: 18px;
+    padding: 1px 13px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color:thistle;
+    border-radius: 30px;
+    border-color: rgb(116, 32, 83);
+    box-shadow: 0 0 1px 1px black;
+
+}

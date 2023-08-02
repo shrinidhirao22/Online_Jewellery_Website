@@ -1,0 +1,148 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+  }
+  body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    padding: 30px;
+    background-image: url(log.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .container{
+  position: relative;
+  max-width: 650px;
+  width: 100%;
+  background: none;
+  padding: 40px 30px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  perspective: 2700px;
+}
+  .container .forms{
+    height: 100%;
+    width: 100%;
+    background: none;
+  }
+  .container .form-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.form-content .login-form{
+  width: calc(100% / 2 - 25px);
+}
+.forms .form-content .title{
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  color: goldenrod;
+  font-style: oblique;
+  text-decoration: underline;
+}
+.forms .form-content .title:before{
+  
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 25px;
+  background: goldenrod;
+}
+.forms .signup-form  .title:before{
+    width: 20px;
+  }
+  .forms .form-content .input-boxes{
+    margin-top: 30px;
+  }
+  .forms .form-content .input-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    
+  }
+  .form-content .input-box input{
+    height: 100%;
+    width: 68%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    color:  white;
+    font-weight: 500;
+    
+    border-bottom: 1px solid goldenrod;
+    border-left: 1px solid goldenrod;
+    border-right:1px solid goldenrod;
+    border-top: 1px solid goldenrod;
+    border-radius: 10px 10px 10px 10px;
+    transition: all 0.3s ease;
+    background :transparent;
+  }
+  
+  .form-content .input-box i{
+    position: absolute;
+
+    
+    color: goldenrod;
+    font-size: 17px;
+
+  }
+  
+.forms .form-content .text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .forms .form-content .text a{
+    text-decoration: none;
+  }
+  .forms .form-content .text a:hover{
+    text-decoration: underline;
+  }
+  .forms .form-content .button{
+    color: #fff;
+    margin-top: 40px;
+  }
+  .forms .form-content .button input{
+    color: white;
+    font-weight: bolder;
+    font-size: 23px;
+    background: none;
+    
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  .forms .form-content .button input:hover{
+    background: goldenrod;
+  }
+  .forms .form-content label{
+    color: goldenrod;
+    cursor: pointer;
+  }
+  .forms .form-content label:hover{
+    text-decoration: underline;
+  }
+  .text a{
+    color: goldenrod;
+    font-size: 18px;
+  }
+  .forms .form-content .login-text
+  {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .form-content .login-form{
+    width: 100%;
+  }
